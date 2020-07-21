@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Playfair+Display:ital,wght@0,700;1,400&display=swap");
+:root {
+  font-size: 10px;
+  --serif: "Playfair Display", "Times New Roman", Times, serif;
+  --sans-serif: "Montserrat", Arial, Helvetica, sans-serif;
+  --grey1: #333333;
+  --grey2: #bdbdbd;
+  --grey3: #a9a9a9;
+  --orange: #f2994a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--sans-serif);
+}
